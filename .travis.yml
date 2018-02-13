@@ -27,7 +27,9 @@ gemfile:
 #   - "gem install appraisal"
 #   - "bundle exec appraisal install"
 #
+before_script: bundle install
 # script: "bundle exec appraisal rake"
+script: "bundle exec rake"
 
 # notifications:
 #   irc: "irc.freenode.org#opal"
